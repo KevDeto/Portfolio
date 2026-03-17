@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --gta-gradient: radial-gradient(circle at 35% 46.8937vh,
+      rgb(255, 212, 129) 0vh,
+      rgb(238, 70, 106) 50vh,
+      rgb(126, 35, 103) 90vh,
+      rgba(32, 31, 66, 0) 125.863vh);
+}
+
+@layer utilities {
+
+  /* Para texto */
+  .text-gta-gradient {
+    background-image: var(--gta-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Para fondos */
+  .bg-gta-gradient {
+    background-image: var(--gta-gradient);
+  }
+
+  /* Para bordes con gradiente */
+  .border-gta-gradient {
+    border: 2px solid;
+    border-image: var(--gta-gradient);
+    border-image-slice: 1;
+  }
+
+  /* Para bordes inferiores con gradiente */
+  .border-b-gta-gradient {
+    border-bottom: 2px solid;
+    border-image: var(--gta-gradient);
+    border-image-slice: 1;
+    border-image-width: 0 0 2px 0;
+  }
+}
