@@ -1,4 +1,4 @@
-import Navegation from "./navegation";
+import Navegation from "./Navegation";
 
 const Header = () => {
     return (
