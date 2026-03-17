@@ -1,7 +1,5 @@
-import React from 'react';
 import imgportf from '../assets/img.png';
 import { TypeAnimation } from 'react-type-animation';
-import { motion } from "motion/react"
 
 const Home = () => {
     return (
