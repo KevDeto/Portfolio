@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <div className="flex justify-center p-10">
+        <div className="flex justify-center py-10 md:p-10">
             <form action="https://formspree.io/f/mwplygob" target="_blank" method="POST" className="h-auto w-200 rounded-[25px] bg-[#201d2b]/40 flex flex-col gap-5 p-10">
                 <div className="">
                     <input

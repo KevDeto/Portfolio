@@ -6,8 +6,8 @@ const Card = ({ project, technologies }) => {
 
 
     return (
-        <div className="card flex flex-col gap-2 w-full max-w-sm h-112 md:h-105 rounded-[25px] bg-[#201d2b]/40">
-            <img src={project.imagen} alt="" className="card-img h-50 w-full rounded-[25px] rounded-b-none" />
+        <div className="card flex flex-col gap-2 w-full max-w-sm h-100 md:h-105 rounded-[25px] bg-[#201d2b]/40">
+            <img src={project.imagen} alt="" className="card-img h-40 sm:h-50 md:h-50 w-full rounded-[25px] rounded-b-none" />
             <div className="card-body">
                 <div className="flex items-center justify-between">
                     <h5 className="card-title text-[18px] p-3">{project.titulo}</h5>

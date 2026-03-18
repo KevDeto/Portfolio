@@ -13,7 +13,7 @@ const Projects = ({ projects }) => {
     };
 
     return (
-        <div className="flex justify-center p-10">
+        <div className="flex justify-center py-10 md:p-10">
             <div className="flex flex-wrap justify-center gap-10 m-auto p-5">
                 {projects.map(project => (
                     <Card key={project.id} project={project} technologies={getProjectIcons(project.tecnologias)} />

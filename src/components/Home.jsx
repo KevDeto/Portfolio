@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
     return (
-        <div className='flex flex-col-reverse md:flex-row items-center justify-center md:min-h-[80vh] my-[60px] md:mb-0 md:gap-12 px-4  sm:px-6 lg:px-8'>
+        <div className='flex flex-col-reverse md:flex-row items-center justify-center md:min-h-[80vh] mb-[60px] md:my-[60px] md:mb-0 md:gap-12 px-4  sm:px-6 lg:px-8'>
             <div className='w-full md:flex-1 text-center md:text-left'>
                 <div className='space-y-5 sm:space-y-6'>
                     <h1 className='flex flex-col lg:-space-y-2 text-gta-gradient text-4xl mb-5'>

@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Menu, X } from 'lucide-react'; // Íconos para el menú
+import { Menu, X } from 'lucide-react';
 
 const Navegation = () => {
     const [activeSection, setActiveSection] = useState('home');

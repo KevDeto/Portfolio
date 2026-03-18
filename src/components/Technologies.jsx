@@ -15,7 +15,7 @@ const Technologies = ({ technologies }) => {
 
     return (
         <div className="">
-            <div className="w-full max-w-[800px] mx-auto space-y-5 p-4 py-10 ">
+            <div className="w-full max-w-[800px] mx-auto space-y-5 md:p-4 py-10 ">
                 {categories.map(category => (
                     <div key={category.name} className="rounded-xl p-5 space-y-5 bg-[#201d2b]/40">
                         <h3 className="text-[16px] font-semibold">{category.name}</h3>
